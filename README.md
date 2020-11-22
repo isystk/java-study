@@ -7,16 +7,19 @@
 Javaの今どきの書き方を纏めました。
 
 ### 匿名クラス
-
+https://github.com/isystk/java-study/tree/master/src/anonymousClass
 
 ### ジェネリクス
-
+https://github.com/isystk/java-study/tree/master/src/genericStack
 
 ### Comparator
+https://github.com/isystk/java-study/tree/master/src/comparator
 
+### Stream 
+https://github.com/isystk/java-study/tree/master/src/stream
 
-### Stream API
-
+### StreamMap
+https://github.com/isystk/java-study/tree/master/src/streamMap
 
 
 ## 🎫 Licence
