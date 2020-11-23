@@ -29,10 +29,14 @@ public class Sample {
         System.out.printf("生年月日: %s年%s月%s日"+System.lineSeparator(), myBirthday.getYear(), myBirthday.getMonthValue(), myBirthday.getDayOfMonth());
         // Formatterを利用すると簡単
         System.out.printf("生年月日: %s"+System.lineSeparator(), DateTimeFormatter.ofPattern("yyyy年M月dd日").format(myBirthday));
+        // 文字列から日付への変換
+        String dateStr = "2020/11/20";
+        System.out.println(LocalDate.parse(dateStr, DateTimeFormatter.ofPattern("yyyy/MM/dd")));
 
         // 日付の計算
         LocalDate tenYearsAfter = LocalDate.now().plusYears(10);
         System.out.printf("10年後は %s年です。"+System.lineSeparator(), tenYearsAfter.getYear());
+
     }
 
 }
