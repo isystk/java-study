@@ -7,28 +7,31 @@
 Javaの今どきの書き方を纏めました。
 
 ### 匿名クラス
-https://github.com/isystk/java-study/tree/master/src/anonymousClass
+https://github.com/isystk/java-study/tree/master/src/main/anonymousClass
 
 ### ジェネリクス
-https://github.com/isystk/java-study/tree/master/src/genericStack
+https://github.com/isystk/java-study/tree/master/src/main/genericStack
 
 ### Comparator
-https://github.com/isystk/java-study/tree/master/src/comparator
+https://github.com/isystk/java-study/tree/master/src/main/comparator
 
 ### Stream 
-https://github.com/isystk/java-study/tree/master/src/stream
+https://github.com/isystk/java-study/tree/master/src/main/stream
 
 ### StreamMap
-https://github.com/isystk/java-study/tree/master/src/streamMap
+https://github.com/isystk/java-study/tree/master/src/main/streamMap
 
 ### try with resource
-https://github.com/isystk/java-study/tree/master/src/tryWithResource
+https://github.com/isystk/java-study/tree/master/src/main/tryWithResource
 
 ### Optional
-https://github.com/isystk/java-study/tree/master/src/optional
+https://github.com/isystk/java-study/tree/master/src/main/optional
 
 ### String join
-https://github.com/isystk/java-study/tree/master/src/stringJoin
+https://github.com/isystk/java-study/tree/master/src/main/stringJoin
+
+### BeanUtils.copyProperties
+https://github.com/isystk/java-study/tree/master/src/main/beanCopy
 
 
 ## 🎫 Licence
