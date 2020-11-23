@@ -21,6 +21,15 @@ https://github.com/isystk/java-study/tree/master/src/stream
 ### StreamMap
 https://github.com/isystk/java-study/tree/master/src/streamMap
 
+### try with resource
+https://github.com/isystk/java-study/tree/master/src/tryWithResource
+
+### Optional
+https://github.com/isystk/java-study/tree/master/src/optional
+
+### String join
+https://github.com/isystk/java-study/tree/master/src/stringJoin
+
 
 ## 🎫 Licence
 
