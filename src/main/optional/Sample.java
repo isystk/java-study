@@ -7,27 +7,24 @@ import java.util.*;
  */
 public class Sample {
     public static void main(String[] args) {
-        OptionalStack<String> optionalStack = new OptionalStack<>();
-        Optional<String> optional = optionalStack.pop();
+        String data = null;
+        Optional<String> optional = Optional.ofNullable(data);
 
-        // この時点ではoptionalStackが空なのでoptionalはEmptyとなっている。
+        // この時点ではdataが空なのでoptionalはEmptyとなっている。
         String optionalElement = optional.orElse("empty");
         System.out.println(optionalElement);
 
-        optionalStack.push("Java");
-        optionalStack.push("Kotlin");
-        optionalStack.push("Scala");
+        data = "hoge";
+        optional = Optional.ofNullable(data);
 
-        optional = optionalStack.pop();
         // optionalが空じゃない場合にIF文の中が処理される
         if (optional.isPresent()) {
             System.out.println(optional.get());
         }
 
-        optional = optionalStack.pop();
-
         // ifPresent を利用するとIF文を簡略化することもできる
         optional.ifPresent(System.out::println);
+
     }
 
 }

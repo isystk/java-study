@@ -23,5 +23,4 @@ public class NumberStack<E extends Number> {
         }
         return taskList.remove(taskList.size()-1);
     }
-
 }
